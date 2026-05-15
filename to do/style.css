@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(23,23,123);
+    background-color: rgb(157, 157, 181);
     text-align: center;
     width: 100px;
 }
@@ -17,13 +17,13 @@ button{
 }
 .done
 {
-    text-decoration:wavy;
+    text-decoration:line-through;
     color:brown;
 }
 li{
-    padding:10px
+    padding:10px;
     border-radius:5px;
-    marding:10px;
+    margin:10px;
     width:10px;
     
 }
