@@ -1,15 +1,15 @@
-function addtask(){
-    let input = document.getElementById("task input")
+function addTask(){
+    let input = document.getElementById("taskInput")
     let taskText = input.value;
 
     if (taskText ==="")
     {
         alert("enter you task");
-        return 0;
+        return;
     }
     let li = document.createElement("li");
     li.innerHTML =`
-    <span onclick="markdone(this)">;
+    <span onclick="markdone(task)">
     ${taskText}
     </span>
     <button onclick="deletetask(this)">
@@ -17,12 +17,12 @@ function addtask(){
     </button>
 
     `;
-    document.getElementById("tasklist").appendChild(li);
-    input.value="";
+    document.getElementById("taskList").appendChild(li);
+    input.value="";s
 
 }
 function markdone(task){
-    task.classlist.toggle("done");
+    task.classList.toggle("done");
 }
 function deletetask(button){
     button.parentElement.remove();
