@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23,23,123);
+    text-align: center;
+    width: 100px;
+}
+.container {
+background-color:aqua;
+border-radius:10px;
+width:200px;
+margin:auto;
+}
+button{
+    border-radius:10px;
+    padding:8px;
+    cursor: pointer;
+}
+.done
+{
+    text-decoration:wavy;
+    color:brown;
+}
+li{
+    padding:10px
+    border-radius:5px;
+    marding:10px;
+    width:10px;
+    
+}
